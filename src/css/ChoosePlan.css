@@ -1,0 +1,159 @@
+.plan-container {
+}
+.plan-container .plan-header {
+  padding: 5% 26%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.plan-container h1 {
+  text-align: center;
+  font-size: 2.8rem;
+}
+
+.plan-container .plan-desc p {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  /* text-align: center; */
+}
+.plan-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+.plan-list .plan-box {
+  width: 25%;
+  border: 3px solid rgb(193, 8, 39);
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15px;
+}
+.plan-box img {
+  width: 60%;
+  padding: 15% 5%;
+}
+.plan-list .plan-box .plan-desc-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+}
+.plan-desc-container .plan-desc {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 5% 20%;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.tick-image img {
+  height: 30px;
+  width: 30px;
+}
+.plan-desc span {
+  font-size: 1rem;
+}
+.price-detail {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 10px 25px 10px;
+}
+.price-detail .price-select-btn {
+  text-align: center;
+  align-items: center;
+  width: 100%;
+}
+.price-select-btn button {
+  margin: 10px 0;
+  width: 100%;
+  padding: 7% 25%;
+  font-size: 1.3rem;
+  border: 2.2px solid red;
+  border-radius: 35px;
+  color: red;
+}
+.price-detail button:hover {
+  color: white;
+  background: red;
+  transition: 200ms;
+}
+.price-detail h1 span {
+  color: rgb(100, 108, 108);
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  .plan-container .plan-header {
+    padding: 5% 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  .plan-container .plan-header h1 {
+    font-size: 1.5rem;
+  }
+  .plan-desc-container .plan-desc {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 5% 10%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  .plan-container h1 {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .plan-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .plan-list .plan-box {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 2px 2px;
+  }
+  .plan-box img {
+    width: 40%;
+    padding: 5% 5%;
+  }
+  .plan-desc {
+    display: flex;
+    height: 40px;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0% 2%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  .price-detail h1 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+}
+@media (max-width: 700px) {
+  .price-detail h1 {
+    font-style: 1.4rem;
+  }
+}

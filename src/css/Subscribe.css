@@ -1,0 +1,142 @@
+.sub-container {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.subscribe {
+  background: rgb(255, 255, 255);
+  padding: 4% 7%;
+  border-radius: 12px;
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transform: translate(0, 50%);
+}
+.subscribe .sub-heading {
+  width: 50%;
+}
+.sub-button {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+.sub-heading p {
+  margin: 10px 0;
+  font-size: 1.1em;
+}
+.sub-button button {
+  font-weight: 600;
+  font-size: 1.1em;
+  border-radius: 10px;
+  padding: 4%;
+  width: 50%;
+  background: rgb(239, 72, 72);
+  box-shadow: 0 0 40px 0 rgba(201, 46, 46, 0.749);
+  color: white;
+  border: none;
+}
+@media (max-width: 1000px) {
+  .subscribe {
+    padding: 2% 4%;
+    border-radius: 12px;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transform: translate(0, 50%);
+  }
+  .subscribe .sub-heading {
+    width: 60%;
+  }
+  .sub-button {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .sub-heading p {
+    margin: 10px 0;
+    font-size: 1.1em;
+  }
+  .sub-button button {
+    font-weight: 600;
+    font-size: 1em;
+    border-radius: 10px;
+    padding: 4%;
+    width: 50%;
+  }
+}
+
+@media (max-width: 700px) {
+  .subscribe {
+    padding: 2% 4%;
+    border-radius: 12px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transform: translate(0, 50%);
+  }
+  .subscribe .sub-heading {
+    width: 60%;
+  }
+  .subscribe .sub-heading h1 {
+    font-size: 1.5rem;
+  }
+  .sub-button {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .sub-heading p {
+    margin: 10px 0;
+    font-size: 1em;
+  }
+  .sub-button button {
+    font-weight: 600;
+    font-size: 1em;
+    border-radius: 10px;
+    padding: 4%;
+    width: 50%;
+  }
+}
+@media (max-width: 500px) {
+  .subscribe {
+    padding: 2% 4%;
+    margin-bottom: 10%;
+    border-radius: 12px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .sub-button {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+  }
+  .subscribe .sub-heading {
+    width: 60%;
+    text-align: center;
+  }
+  .subscribe .sub-heading h1 {
+    font-size: 1rem;
+  }
+  .sub-button {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .sub-heading p {
+    margin: 10px 0;
+    font-size: 0.9em;
+  }
+  .sub-button button {
+    font-weight: 600;
+    font-size: 0.8em;
+    border-radius: 10px;
+    width: 50%;
+  }
+}
